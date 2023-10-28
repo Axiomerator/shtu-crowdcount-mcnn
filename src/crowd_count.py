@@ -1,3 +1,6 @@
+import sys
+sys.path.append('./src')
+
 import torch.nn as nn
 import network
 from models import MCNN
